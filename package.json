@@ -1,7 +1,7 @@
 {
   "name": "new-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "This task is a project created collaboratively during the 10th week of Code Nation's Master Course. It is based on some mysterious phenomenon that has happened throughout history.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/team2-software-developers/Pathfinder/issues"
   },
-  "homepage": "https://github.com/team2-software-developers/Pathfinder#readme"
+  "homepage": "https://github.com/team2-software-developers/Pathfinder#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
 }
