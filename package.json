@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/team2-software-developers/new-project.git"
+    "url": "git+https://github.com/team2-software-developers/Pathfinder.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/team2-software-developers/new-project/issues"
+    "url": "https://github.com/team2-software-developers/Pathfinder/issues"
   },
-  "homepage": "https://github.com/team2-software-developers/new-project#readme"
+  "homepage": "https://github.com/team2-software-developers/Pathfinder#readme"
 }
