@@ -3,6 +3,6 @@ const router = express.Router;
 
 const Axios = require("axios");
 
-router.get("/", (req,res) => {
+router.status(200).get("/", (req,res) => {
     
-})
+});
