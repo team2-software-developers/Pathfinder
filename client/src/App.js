@@ -4,13 +4,15 @@ import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import Phenomenon from "./components/Phenomenon"
 import About from "./components/About"
+import "./App.css"
+
 
 
 function App() {
   return (
     <Router>
 
-      <Navbar />
+     {/*  <Navbar /> */}
 
       <Route path="/" exact>
         <Home />
