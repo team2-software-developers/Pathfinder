@@ -21,7 +21,7 @@ app.get("/", (req,res) => {
 });
 
 app.use('/about', aboutRouter);
-// app.use('/date', dateRouter);
+app.use('/date', dateRouter);
 app.use('/location', locationRouter);
 app.use('/search', searchRouter);
 
