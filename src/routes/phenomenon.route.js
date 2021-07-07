@@ -1,6 +1,9 @@
 const express = require("express");
-const app  = express();
+const router = express.Router();
 
-app.get("http://localhost:3000/phenomenon/" , (res, req) => {
-    app.post()
-})
+
+router.get("/", (res, req) => {
+    res.status(200).send("Phenomenon page");
+});
+
+module.exports = router;

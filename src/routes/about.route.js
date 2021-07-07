@@ -1,9 +1,10 @@
 const express = require("express");
 const router = express.Router();
 
+// about page route
 
-router.get("/", (res, req) => {
-    res.status(200).send("Date page");
+router.get("/about", (req, res) => {
+    res.status(200).send("About page");
 });
 
 module.exports = router;
