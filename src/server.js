@@ -13,6 +13,12 @@ app.get("/", (req,res) => {
     res.status(200).send("server");
 });
 
+app.use('/about', about);
+app.use('/date', date);
+app.use('/location', location);
+app.use('/search', search);
+
+
 //listen to server
 app.listen(port, () => {
     console.log(`Server is listening on ${port}`);
