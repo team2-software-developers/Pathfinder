@@ -1,5 +1,5 @@
 {
-  "name": "new-project",
+  "name": "pathfinder",
   "version": "1.0.0",
   "description": "This task is a project created collaboratively during the 10th week of Code Nation's Master Course. It is based on some mysterious phenomenon that has happened throughout history.",
   "main": "src/server.js",
@@ -23,8 +23,7 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^5.13.2",
-    "node-fetch": "^2.6.1"
+    "mongoose": "^5.13.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.9"
