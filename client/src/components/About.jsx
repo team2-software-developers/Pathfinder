@@ -3,23 +3,23 @@ import React from "react"
 function About() {
 
     return (
-        <div className="container">
+        <div>
             <h1>Who we are</h1>
 
             <div>
-                <a className="name" href="https://github.com/FernandaRicciardi" target="_blank" rel="noreferrer">Fernanda Ricciardi</a>
+                <a href="https://github.com/FernandaRicciardi" target="_blank" rel="noreferrer">Fernanda Ricciardi</a>
             </div>
 
             <div>
-                <a className="name" href="https://github.com/Minakrv" target="_blank" rel="noreferrer">Mina Khosravi</a>
+                <a href="https://github.com/Minakrv" target="_blank" rel="noreferrer">Mina Khosravi</a>
             </div>
 
             <div>
-                <a className="name" href="https://github.com/paulamal21" target="_blank" rel="noreferrer">Paula Malkinska</a>
+                <a href="https://github.com/paulamal21" target="_blank" rel="noreferrer">Paula Malkinska</a>
             </div>
 
             <div>
-                <a className="name" href="https://github.com/RomanHyde" target="_blank" rel="noreferrer">Roman Hyde</a>
+                <a href="https://github.com/RomanHyde" target="_blank" rel="noreferrer">Roman Hyde</a>
             </div>
 
             <hr />
