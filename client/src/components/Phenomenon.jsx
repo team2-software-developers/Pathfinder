@@ -3,7 +3,7 @@ import React from "react"
 function Phenomenon() {
 
     return (
-        <div className="container">
+        <div>
             <h1>Phenomenon</h1>
         </div>
     )
