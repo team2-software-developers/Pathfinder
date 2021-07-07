@@ -6,3 +6,5 @@ const router = express.Router();
 router.get("/about", (req, res) => {
     res.status(200).send("About page");
 });
+
+module.exports = router;

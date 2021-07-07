@@ -7,5 +7,4 @@ router.status(200).get("/", (req,res) => {
     res.status(200).send("Location page");
 });
 
-
-
+module.exports = router;
