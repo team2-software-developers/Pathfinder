@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "This task is a project created collaboratively during the 10th week of Code Nation's Master Course. It is based on some mysterious phenomenon that has happened throughout history.",
   "main": "src/server.js",
-  "scripts": {
+  "engines":{"node":"14.16.1" , "npm":"6.14.12"},
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon src/server.js",
     "start": "node src/server.js",
