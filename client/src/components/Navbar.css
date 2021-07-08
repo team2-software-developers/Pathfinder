@@ -1,0 +1,20 @@
+.navbar {
+    height: 90px;
+    box-shadow: inset 2px 2px 15px #2e343b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.nav_item  {
+    color: #C39B6B;
+    display: inline-block;
+    transition-duration: 300ms;
+}
+
+.nav_item:hover {
+    color: #EFEDEE;
+    transform: translate3d(0, -2px, 0);
+} 

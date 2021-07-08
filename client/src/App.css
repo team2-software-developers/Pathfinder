@@ -1,116 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.big-img {
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-image: url("./assets/big-img.jpg");
-}
-
-.overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-  font-family: 'Fira Mono', monospace;
-  text-align: center;
-  color: #F1F0EA;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.overlay h1 {
-  font-size: 60px;
-  margin-top: 9%;
-}
-
-.typing-demo {
-  font-size: 32px;
-  width: 292px;
-  animation:
-    typing 2.5s 400ms steps(15, end) forwards,
-    blink-caret 0.5s 400ms step-end 7 forwards;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  opacity: 0;
-}
-  
-@keyframes typing {
-  from {width: 0; opacity: 1;}
-  to {width: 292px; opacity: 1;}
-}
-
-@keyframes blink-caret {
-  from, to {border-color: transparent}
-  50% {border-color: var(--whitish)}
-}
-
-.enter {
-  color: #ffffff;
-  margin-top: 3%;
-  padding: 12px 48px;
-  background: linear-gradient(to right, #858484 0, rgba(255, 255, 255, 0.9) 10%, #858484 20%);
-  background-position: 0px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  animation:
-    shine 4s 2s infinite linear forwards,
-    in 850ms 2s linear forwards;
-
-  -webkit-text-size-adjust: none;
-  font-weight: bold;
-  font-size: 30px;
-  white-space: nowrap;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  transition-duration: 300ms;
-  opacity: 0;
-}
-
-@keyframes shine {
-  0% {background-position: 0px;}
-  100% {background-position: 201px;}
-}
-
-.enter:hover {
-  transform: scale(1.1,1.1);
-}
-
-
-
-.in {
-  opacity: 0;
-  animation: in 850ms linear forwards;
-}
-
-@keyframes in {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-
-
-
-
-.link {
-  color: #534B52;
+.link, a {
   text-decoration: none;
 }
 
-/* .navbar {
-  background-color: #E0DDCF;
-  color: #534B52;
-} */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Mono', monospace;
+  text-align: center;
+  color: #EFEDEE;
+}
+
+
+footer {
+  margin-bottom: 10px;
+  position: absolute;
+  bottom: 0;
+  transition-duration: 300ms;
+}
+
+footer .link {
+  color: rgb(241, 240, 234, 0.4);
+}
+
+footer:hover {
+  transform: scale(1.1,1.1);
+}
