@@ -3,13 +3,16 @@ const app = express();
 const cors = require("cors");
 const path = require("path");
 require("dotenv").config();
+require('./db/connection');
 const port = process.env.PORT || 5000;
 
 // Routers
+const phenomenonRouter = require('./routes/phenomenon.route');
 const aboutRouter = require('./routes/about.route');
 const dateRouter = require('./routes/date.route');
 const locationRouter = require('./routes/location.route');
 const searchRouter = require('./routes/search.route');
+
 
 app.use(cors());
 app.use(express.json());
@@ -24,6 +27,7 @@ if (process.env.NODE_ENV === "production") {
   })
 };
 
+app.use('/phenomenon', phenomenonRouter);
 app.use('/about', aboutRouter);
 app.use('/date', dateRouter);
 app.use('/location', locationRouter);
