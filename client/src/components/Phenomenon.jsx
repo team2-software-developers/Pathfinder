@@ -1,6 +1,6 @@
 import React from "react"
 import Navbar from "./Navbar"
-/* import Folders from "./Folders" */
+import Folders from "./Folders" 
 import "./Phenomenon.css"
 
 function Phenomenon() {
@@ -20,7 +20,7 @@ function Phenomenon() {
                 <p>While the government has not formally released a list of recorded phenomenon to the public, a list does exist.</p>
             </div>
 
-         {/*    <Folders /> */}
+            <Folders /> 
 
         </div>
     )
