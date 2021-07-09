@@ -1,20 +1,22 @@
 .navbar {
     height: 90px;
-    box-shadow: inset 2px 2px 15px #2e343b;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px 4px rgb(71, 71, 71);
     display: flex;
     justify-content: space-around;
     align-items: center;
     letter-spacing: 3px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .nav_item  {
-    color: #C39B6B;
+    color: #EFEDEE;
     display: inline-block;
     transition-duration: 300ms;
+    text-transform: uppercase;
 }
 
 .nav_item:hover {
-    color: #EFEDEE;
+    color: #ffd097;
     transform: translate3d(0, -2px, 0);
 } 

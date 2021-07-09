@@ -1,6 +1,6 @@
 body {
     background-color: #121417;
-    background-image: url("../assets/bg2.png");
+    background-image: url("../assets/bg.png");
     text-align: center;
     color: #EFEDEE;
 }
@@ -10,16 +10,8 @@ body {
     padding: 20px 10%;
 }
 
-.project {
-    padding-top: 0;
-}
-
-.links_git {
-    padding-top: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-transform: uppercase;
+.project p {
+    padding: 30px 0;
 }
 
 .links_tech {
@@ -29,17 +21,30 @@ body {
     justify-content: center;
 }
 
-.gits {
-    margin: 20px;
-}
-
 .techs {
     margin-bottom: 10px;
 }
 
+.who {
+    padding-top: 0;
+}
+
+.links_git {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.gits {
+    margin: 20px;
+}
+
+
 .gits a,
 .techs a {
-    color: #EFEDEE;
+    color: #C39B6B;
     transition-duration: 350ms;
 }
 
@@ -50,17 +55,29 @@ body {
 
 .gits a:hover,
 .techs a:hover {
-    color: #C39B6B;
-}
-
-.project p {
-    padding: 30px 0;
+    color: #ffd097;
 }
 
 .project h2,
 .who h2 {
-    border-top: 1px solid rgba(128, 128, 128, 0.3);
-    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
-    padding: 5px 0;
+   display: inline-block;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.cn {
+    display: inline-block;
+}
+
+.cn a {
+    color: #C39B6B;
+    transition-duration: 350ms;
+}
+
+.cn a:hover {
+    color: #ffd097;
+}
+
+.cn:hover {
+    transform: translate3d(0, -2px, 0);
 }
 

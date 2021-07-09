@@ -9,6 +9,39 @@ function About() {
 
             <Navbar />
 
+            <div className="project">
+                <h2>The project</h2>
+                <p>
+                    Pathfinder is a project created collaboratively during the 10th week of <span className="cn"><a href="https://wearecodenation.com/" target="_blank" rel="noreferrer">Code Nation</a></span>'s Master Course. It is based on some mysterious phenomenon that has happened throughout history.
+                </p>
+
+                <h3>Dependancies used</h3>
+                
+                <div className="links_tech">
+
+                    <div className="techs">
+                        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">React</a>
+                    </div>
+
+                    <div className="techs">
+                        <a href="https://nodejs.org/" target="_blank" rel="noreferrer">Node.js</a>
+                    </div>
+
+                    <div className="techs">
+                        <a href="https://expressjs.com/" target="_blank" rel="noreferrer">Express</a>
+                    </div>
+
+                    <div className="techs">
+                        <a href="https://mongoosejs.com/" target="_blank" rel="noreferrer">Mongoose</a>
+                    </div>
+
+                    <div className="techs">
+                        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">MongoDB</a>
+                    </div>
+
+                </div>
+            </div>
+
             <div className="who">
 
                 <h2>Who we are</h2>
@@ -31,39 +64,6 @@ function About() {
                     </div>
                 </div>
 
-            </div>
-
-            <div className="project">
-                <h2>The project</h2>
-                <p>
-                    Pathfinder is a project created collaboratively during the 10th week of Code Nation's Master Course. It is based on some mysterious phenomenon that has happened throughout history.
-                </p>
-
-                <h3>Dependancies used</h3>
-                
-                <div className="links_tech">
-
-                    <div className="techs">
-                        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">React</a>
-                    </div>
-
-                    <div className="techs">
-                        <a href="https://nodejs.org/" target="_blank" rel="noreferrer">Node.js</a>
-                    </div>
-
-                    <div className="techs">
-                        <a href="https://expressjs.com/" target="_blank" rel="noreferrer">Express</a>
-                    </div>
-
-                    <div className="techs">
-                        <a href="https://www.npmjs.com/package/nodemon" target="_blank" rel="noreferrer">Nodemon</a>
-                    </div>
-
-                    <div className="techs">
-                        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">MongoDB</a>
-                    </div>
-
-                </div>
             </div>
         </div>
     )
