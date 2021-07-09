@@ -5,7 +5,7 @@ const fetchInfo = async () => {
 };
 
 const fetchDataLocation = async (inputLocation) => {
-    const response = await fetch("http://localhost:5000/get/location", {
+    const response = await fetch("http://localhost:5000/location", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({
