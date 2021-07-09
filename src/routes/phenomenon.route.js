@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+const getPhenomenon = require("../controller/phenomenon.controller");
 
 
 router.get("/", (req, res) => {
@@ -9,5 +10,8 @@ router.get("/", (req, res) => {
     //     {id:2, username:"no-one"}
     // ]);
 });
+
+
+
 
 module.exports = router;
