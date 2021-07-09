@@ -5,8 +5,6 @@ import Phenomenon from "./components/Phenomenon"
 import About from "./components/About"
 import "./App.css"
 
-
-
 function App() {
   return (
     <Router>

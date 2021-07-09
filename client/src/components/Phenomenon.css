@@ -1,9 +1,12 @@
 .phenomenon {
-    padding: 40px 10%;
+    padding: 20px 10%;
 }
 
 .phenomenon h2 {
-    border-top: 1px solid rgba(128, 128, 128, 0.3);
+    display: inline-block;
     border-bottom: 1px solid rgba(128, 128, 128, 0.3);
-    padding: 5px 0;
+}
+
+.phenomenon p {
+    font-size: 18px;
 }

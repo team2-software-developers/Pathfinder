@@ -1,0 +1,31 @@
+.folders {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 70px;
+}
+
+.folder {
+    width: 401px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+}
+
+.item01 {
+    background-image: url("../assets/dyatalov/folder_item01.png");
+}
+
+.item02 {
+    background-image: url("../assets/ranch/folder_item02.png");
+}
+
+.item03 {
+    background-image: url("../assets/spaceman/folder_item03.png");
+}
+
+.item04 {
+    background-image: url("../assets/taured/folder_item04.png");
+}
