@@ -13,8 +13,11 @@ const dateRouter = require('./routes/date.route');
 const locationRouter = require('./routes/location.route');
 const searchRouter = require('./routes/search.route');
 
-
-app.use(cors());
+// I wouldn't normally allow all of these connections but I'm allowing it for testing purposes.
+app.use(cors({
+    origin: "*",
+    methods: ["GET", "POST"]}
+    ));
 app.use(express.json());
 
 
